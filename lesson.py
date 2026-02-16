@@ -1,12 +1,6 @@
-from os import system
-system("cls")
-
-ids = [1, 2, 3, 4]
-names = ["Phan", "Tang", "Seav E", "Zana"]
-scores = [85, 90, 78, 92]
-
-for i, n, s in zip(ids, names, scores):
-    if s > 90:
-        print(i, n, s, "Top student")
-    else:
-        print(i, n, s)
+password = "12345"
+user_input = input("Please Enter Your Password")
+if user_input == password:
+    print("Password is correct")
+else:
+    print("password is incorrect")
